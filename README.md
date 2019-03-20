@@ -23,6 +23,7 @@ export AWS_SECRET_ACCESS_KEY="your secret access key here"
 - execute `terraform init` to download the necessary plugins.
 - execute `terraform import aws_instance.example i-abcd1234`
   - i-abcd1234 is the existing instance ID in AWS.
+  - aws_instance.example is the name of the resource you are importing.
   - you will be asked to enter the region where the instance is running.
 - the output of the `import` command should display the following:
 
