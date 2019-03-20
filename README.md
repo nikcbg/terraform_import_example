@@ -2,7 +2,7 @@
 
 ### Purpose of the repository
 
-The `terraform import` command is used to import existing infrastructure, in this case EC2 instance (Ubuntu 16.04 server) in AWS. The command currently can only import one resource at a time. This means you can't yet point Terraform import to an entire collection of resources.
+The `terraform import` command is used to import existing infrastructure (in this case EC2 instance (Ubuntu 16.04 server) in AWS) to Terraform. The command currently can only import one resource at a time. This means you can't yet point Terraform import to an entire collection of resources.
 
 ---------------------------------------------------------------------------------------------------------------------
 
